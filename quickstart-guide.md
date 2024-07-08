@@ -61,6 +61,8 @@ Analysis Services - Product version: 16.0.43.233, file version: 2022.160.43.23
 ![GCP Compute Engine Console](embedded_images/GCP_Console_reset_password.png)
 ![Set a new Windows password](embedded_images/Set_new_Windows_password.png)
 
+[Learn more](https://cloud.google.com/compute/docs/instances/windows/generating-credentials) about managing accounts and credentials on Windows VMs. 
+
 ## Before You Get Started
 Before you can connect to your SQL Server instance from another machine, you will need to complete the following tasks:
 - Set default port TCP/IP protocol for the named SQL Server instance
