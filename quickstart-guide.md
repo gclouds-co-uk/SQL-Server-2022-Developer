@@ -70,7 +70,8 @@ Before you can connect to your SQL Server instance from another machine, you wil
 - Create the necessary logins for SQL Server
 
 ### Enabling TCP/IP Protocol
-TCP/IP server network protocol is required to connect to this SQL Server instance from a remote machine. This requires enabling TCP/IP protocol for the SQL Server service. It has been already enabled on the deployed server.
+TCP/IP server network protocol is required to connect to this SQL Server instance from a remote machine. This requires enabling TCP/IP protocol for the SQL Server service. 
+> Note: TCP/IP protocol has already been enabled on the deployed server.
 
 ### Firewall
 To access an instance of the SQL Server through a firewall, you must configure the firewall on the computer that is running SQL Server to allow access. The firewall is a component of Microsoft Windows. You can also install a firewall from another company.
@@ -88,6 +89,8 @@ An example of a command allowing the named instance TCP port of 1433 to be used 
     ```
 ![Firewall allowed apps SQL server](embedded_images/Firewall_allowed_apps.png)
 ![Firewall allowed apps SQL browser](embedded_images/Firewall_allowed_apps_sql_browser.png)
+
+> Note: These firewall configuration steps have already been taken care of in deployed SQL Server.
 
 ## Connecting to SQL Server via SSMS
 
