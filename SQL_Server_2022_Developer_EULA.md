@@ -26,5 +26,3 @@ By accepting this Agreement or using the Product, you acknowledge that you have 
 Thank you for choosing gClouds through the Google Cloud Marketplace. We are excited to serve you and help you achieve your goals.
 
 ---
-
-This version of the EULA's introduction is tailored for a Google Cloud Marketplace product, highlighting the key points of transparent pricing, flexible payment options, and the commitment to building trust with users. As with the previous version, the full EULA would contain additional sections covering licensing, restrictions, ownership, warranties, liability, termination, and other legal aspects.
