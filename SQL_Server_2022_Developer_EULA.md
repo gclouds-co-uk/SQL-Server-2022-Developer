@@ -1,6 +1,6 @@
 # End User License Agreement (EULA)
 
-**Effective Date:** [15 Feb 2024]
+**Effective Date:** [12 March 2025]
 
 Thank you for selecting SQL Server 2022 Developer, on Windows Server 2022 Datacenter ("Product") offered by gClouds ("Provider") through the Google Cloud Marketplace. We understand that trust is essential, and we are committed to building a transparent and positive relationship with our users. Here are some key points we want to emphasize:
 
@@ -8,10 +8,10 @@ Thank you for selecting SQL Server 2022 Developer, on Windows Server 2022 Datace
 
 |Image Usage Fee          |vCPU-based Pricing          |
 |-------------------------|----------------------------|
-|$0.071/h                 |from 0 to 1 vCPU(s)         |
-|$0.081/h                 |from 2 to 2 vCPU(s)         |
-|$0.091/h                 |from 3 to 3 vCPU(s)         |
-|$0.099/h                 |for 4 or more vCPU(s)       |
+|$0.098/h                 |from 0 to 3 vCPU(s)         |
+|$0.106/h                 |from 4 to 15 vCPU(s)        |
+|$0.191/h                 |from 16 to 23 vCPU(s)       |
+|$0.274/h                 |from 24+ vCPU(s)            |
 
 *All products are priced in USD and charged in the currency specified by your Billing Account.*
 
