@@ -1,3 +1,8 @@
+---
+layout: default
+title: Quick Start Guide
+nav_order: 2
+---
 # SQL Server 2022 Developer on Windows Server 2022 Datacenter
 
 ## Quick Start Guide
@@ -58,8 +63,8 @@ Analysis Services - Product version: 16.0.43.233, file version: 2022.160.43.23
 2. **Access the SQL Server as an Administrator**: Access your Windows Server instance using Remote Desktop Protocol (RDP) with an administrator user.
 
 ***Create a Windows administrator user on the server by setting a password.***
-![GCP Compute Engine Console](embedded_images/GCP_Console_reset_password.png)
-![Set a new Windows password](embedded_images/Set_new_Windows_password.png)
+![GCP Compute Engine Console](./embedded_images/GCP_Console_reset_password.png)
+![Set a new Windows password](./embedded_images/Set_new_Windows_password.png)
 
 [Learn more](https://cloud.google.com/compute/docs/instances/windows/generating-credentials) about managing accounts and credentials on Windows VMs. 
 
@@ -87,28 +92,28 @@ An example of a command allowing the named instance TCP port of 1433 to be used 
     ```powershell
           New-NetFirewallRule -DisplayName "SQLServer Browser service" -Direction Inbound -LocalPort 1434 -Protocol UDP -Action Allow
     ```
-![Firewall allowed apps SQL server](embedded_images/Firewall_allowed_apps.png)
-![Firewall allowed apps SQL browser](embedded_images/Firewall_allowed_apps_sql_browser.png)
+![Firewall allowed apps SQL server](./embedded_images/Firewall_allowed_apps.png)
+![Firewall allowed apps SQL browser](./embedded_images/Firewall_allowed_apps_sql_browser.png)
 
 > Note: These firewall configuration steps have already been taken care of in deployed SQL Server.
 
 ## Connecting to SQL Server via SSMS
 
 1. **Open SQL Server Management Studio (SSMS)**: Launch SSMS on the server as an administrator.
-![Launch as an administrator](embedded_images/SSMS_as_admin.png)
-![Launch SSMS](embedded_images/SSMS_v20.1.png)
+![Launch as an administrator](./embedded_images/SSMS_as_admin.png)
+![Launch SSMS](./embedded_images/SSMS_v20.1.png)
 
 1. **Connect to the Server**:
    - **Server Name**: Use the IP address or the hostname of your Windows Server instance.
    - **Authentication**: Choose the Windows Authentication method
-   - ![SSMS Windows authentication](embedded_images/SSMS_auth_admin_user.png)
+   - ![SSMS Windows authentication](./embedded_images/SSMS_auth_admin_user.png)
 2. **Verify the Connection**: Ensure that you can connect to the `MSSQLSERVER` instance
 3. **Execute a sample SQL Query**
 ```sql
 SELECT name FROM sys.databases WHERE database_id <= 4;
 GO
 ```
-![SSMS Sample Query](embedded_images/SSMS_Query.png)
+![SSMS Sample Query](./embedded_images/SSMS_Query.png)
 
 ## Connecting to SQL Server via sqlcmd
 
@@ -151,4 +156,4 @@ To verify that SQL Server is running correctly, you can perform the following te
      SELECT @@VERSION
      GO
    ```
-![SSMS Version Query](embedded_images/SSMS_Query_version.png)
+![SSMS Version Query](./embedded_images/SSMS_Query_version.png)

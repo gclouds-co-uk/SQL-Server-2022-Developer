@@ -1,3 +1,8 @@
+---
+layout: default
+title: Release Notes
+nav_order: 3
+---
 # SQL Server 2022 Developer Edition on Windows Server 2022 Datacenter - Release Notes
 # Version 2024H2
 ## Key Changes and Updates
@@ -15,4 +20,4 @@
 ### 4. Windows OS Security Update
 - **Vulnerability Fix**: The Windows OS has been updated to address and fix the vulnerability identified as CVE-2024-30080, ensuring a more secure operating environment.
 
-These updates significantly enhance the security, stability, and performance of SQL Server 2022 Developer Edition on Windows Server 2022 Datacenter. For more details, please contact our [support team](https://gcp.gclouds.co.uk/support.html) 
+These updates significantly enhance the security, stability, and performance of SQL Server 2022 Developer Edition on Windows Server 2022 Datacenter. For more details, please contact our [support team](https://gcp.gclouds.co.uk/support.html)
