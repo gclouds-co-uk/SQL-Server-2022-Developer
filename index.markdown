@@ -16,7 +16,7 @@ nav_order: 1
     It is the best choice for developers, and database administrators to build and test any type of data-driven application.<br>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="./assets/images/SQL Server 2022 Developer on Windows Server 2022 Datacenter_224x224.png" alt="MS SQL 2022 Developer" style="max-width: 100%;">
+    <img src="./assets/images/SQL Server 2022 Developer and Windows Server 2022 Datacenter_224x224.png" alt="MS SQL 2022 Developer" style="max-width: 100%;">
   </div>
 </div>
 
@@ -47,11 +47,7 @@ For detailed instructions on deploying and getting started with SQL Server 2022 
 
 For those who prefer deploying via the command line, we provide a Terraform module that simplifies the process.
 
-### Using the Terraform Module
-
-Refer to the [README file](./example/terraform/README.md) to learn more about using the Terraform module in your environment.
-
-You can find the <a href="https://github.com/gclouds-co-uk/SQL-Server-2022-Developer/tree/main/example/terraform" target="_blank">Terraform module<img src="./assets/images/external_link.png" alt="deploy" style="vertical-align: middle; width: 16px; height: 16px;" /></a> that deploys the product from Google Cloud Marketplace.
+[Learn more about using the Terraform module here.](./docs/terraform.md)
  
 ## Features
 
