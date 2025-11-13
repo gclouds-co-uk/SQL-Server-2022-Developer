@@ -33,16 +33,16 @@ This guide provides step-by-step instructions to quick start with SQL Server 202
 You will have following within this bundle:
 
 #### Key Features
-| Feature                      | Description                                          |
-|------------------------------|------------------------------------------------------|
-| OS version                   | Microsoft Windows Server 2022 Datacenter (10.0.20348)|
-| SQL Package                  | Microsoft SQL Server 2022                            |
-| SQL Edition                  | Developer                                            |
-| Type                         | RTM-CU13 (KB5036432)                                 |
-| Version                      | 16.0.4125.3 (X64)                                    |
-| Features                     | Database Engine Services, SSIS, SSAS                 |
-| Deafult Instance             | MSSQLSERVER                                          |
-| Clustered                    | No                                                   |
+| Feature | Description |
+|---|---|
+| OS version | Microsoft Windows Server 2022 Datacenter (10.0.20348)|
+| SQL Package | Microsoft SQL Server 2022 |
+| SQL Edition | Developer |
+| Type | RTM-CU13 (KB5036432) |
+| Version | 16.0.4125.3 (X64) |
+| Features | Database Engine Services, SSIS, SSAS |
+| Deafult Instance | MSSQLSERVER |
+| Clustered | No |
 
 #### SQL Patch Level
 KB5036432 - Cumulative Update 13 for SQL Server 2022
