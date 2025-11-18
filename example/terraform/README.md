@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Google Cloud Marketplace Terraform Module
 
 This module deploys a product from Google Cloud Marketplace.
