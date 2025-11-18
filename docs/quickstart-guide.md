@@ -20,7 +20,7 @@ Welcome to SQL Server 2022 Developer on Windows Server 2022 Datacenter! This gui
       - [Default Configuration for the Image](#default-configuration-for-the-image)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-  - [Before You Get Started](#before-you-get-started)
+  - [Before You Get Connected to your SQL Server instance](#before-you-get-connected-to-your-sql-server-instance)
     - [Enabling TCP/IP Protocol](#enabling-tcpip-protocol)
     - [Firewall](#firewall)
   - [Connecting to SQL Server via SSMS](#connecting-to-sql-server-via-ssms)
@@ -40,7 +40,7 @@ You will have following within this bundle:
 | SQL Package                  | Microsoft SQL Server 2022                            |
 | SQL Edition                  | Developer                                            |
 | Type                         | RTM-CU21 (KB5065865)                                 |
-| Version                      | 16.0.4125.3 (X64)                                    |
+| Version                      | 16.0.4215.2 (X64)                                    |
 | Patch Level                  | 15.0.4430.1                                          |
 | Features                     | Database Engine Services, SSIS, SSAS, SQL Browser    |
 |                              | SQL Writer, SQL Client Connectivity SDK              |
