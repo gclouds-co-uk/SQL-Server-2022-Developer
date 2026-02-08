@@ -5,6 +5,22 @@ nav_order: 3
 ---
 # SQL Server 2022 Developer Edition on Windows Server 2022 Datacenter - Release Notes
 
+# Version SQL2022DEV-2026Q1
+
+## Key Changes and Updates
+
+### 1. SQL Cumulative Update
+- **Deployment of SQL Cumulative Update 23 (KB5078297)**: Ensures the system includes the latest fixes and improvements from Microsoft. The version is `16.0.4236.2`.
+
+### 2. Windows OS Update
+- **Base Image Update**: The Windows Server 2022 Datacenter base image has been updated to `v20260114`, including the latest security patches and updates from Microsoft.
+
+### 3. Security Enhancements
+- **Fixed Common Vulnerabilities and Exposures (CVEs)**: The following CVEs have been addressed and fixed via standard OS patching:
+  - CVE-2024-55414 (Motorola SM56 Driver Vulnerability)
+  - CVE-2025-6965 (SQLite Memory Corruption in winsqlite3.dll)
+
+---
 # Version SQL2022DEV-2025Q4
 
 ## Key Changes and Updates
