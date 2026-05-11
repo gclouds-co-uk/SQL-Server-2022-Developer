@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Terraform Deployment
-nav_order: 4
+nav_order: 5
 ---
 
 # Command Line Deployment via Terraform
