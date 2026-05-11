@@ -20,8 +20,8 @@ spec:
           name: source_image
           title: Image version
           enumValueLabels:
-            - label: gclouds-win2022-sql2022-dev-1763450838
-              value: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1763450838
+            - label: gclouds-win2022-sql2022-dev-1778503413
+              value: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1778503413
           xGoogleProperty:
             type: ET_GCE_DISK_IMAGE
         machine_type:
@@ -145,6 +145,6 @@ spec:
     runtime:
       suggestedActions:
         - heading: Release notes
-          description: https://github.com/gclouds-co-uk/SQL-Server-2022-Developer/blob/main/Release_Notes.md
+          description: https://gclouds-co-uk.github.io/SQL-Server-2022-Developer/docs/Release_Notes.html
         - heading: Quickstart Guide
-          description: https://github.com/gclouds-co-uk/SQL-Server-2022-Developer/blob/main/quickstart-guide.md
+          description: https://gclouds-co-uk.github.io/SQL-Server-2022-Developer/docs/quickstart-guide.html

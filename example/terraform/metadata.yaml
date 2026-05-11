@@ -8,7 +8,7 @@ metadata:
 spec:
   info:
     title: Google Cloud Marketplace Terraform Module
-    version: SQL2022DEV-2024Q4
+    version: SQL2022DEV-2026H2
     actuationTool:
       flavor: Terraform
       version: ">= 1.2"
@@ -17,10 +17,10 @@ spec:
       - type: SG_OS
         software:
           - title: Windows Server 2022
-            version: "DC 10.0.20348"
+            version: "DC 20260429"
       - software:
           - title: Microsoft (R) SQL Server 2022
-            version: "16.0.4225.2"
+            version: "16.0.4245.2"
           - title: Enterprise Evalutation Edition
             version: "64 bit"
           - title: SSAS
@@ -30,7 +30,7 @@ spec:
           - title: SSMS
             version: "20.1"
           - title: CU
-            version: "22"
+            version: "24"
   content: {}
   interfaces:
     variables:
@@ -45,7 +45,7 @@ spec:
       - name: source_image
         description: The image name for the disk for the VM instance.
         varType: string
-        defaultValue: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1763450838
+        defaultValue: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1778503413
       - name: zone
         description: The zone for the solution to be deployed.
         varType: string

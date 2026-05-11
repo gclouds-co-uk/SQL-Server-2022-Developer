@@ -1,7 +1,3 @@
----
-nav_exclude: true
----
-
 # Google Cloud Marketplace Terraform Module
 
 This module deploys a product from Google Cloud Marketplace.
@@ -18,7 +14,7 @@ terraform plan --var-file marketplace_test.tfvars --var project_id=<YOUR_PROJECT
 |------|-------------|------|---------|----------|
 | project_id | The ID of the project in which to provision resources. | `string` | `null` | yes |
 | goog_cm_deployment_name | The name of the deployment and VM instance. | `string` | `null` | yes |
-| source_image | The image name for the disk for the VM instance. | `string` | `"projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1763450838"` | no |
+| source_image | The image name for the disk for the VM instance. | `string` | `"projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1778503413"` | no |
 | zone | The zone for the solution to be deployed. | `string` | `"us-central1-a"` | no |
 | machine_type | The machine type to create, e.g. e2-small | `string` | `"n2d-standard-8"` | no |
 | boot_disk_type | The boot disk type for the VM instance. | `string` | `"pd-balanced"` | no |
