@@ -59,7 +59,8 @@ The SQL Server 2022 Developer image comes with the following default configurati
 ### Prerequisites
 
 - A Google Cloud Platform account.
-- Basic knowledge of SQL Server
+A basic knowledge of SQL Server
+- **Required APIs**: To deploy a VM product from the Marketplace, you need to enable the following APIs: Compute Engine API and Infrastructure Manager API.
 
 ### Installation
 
