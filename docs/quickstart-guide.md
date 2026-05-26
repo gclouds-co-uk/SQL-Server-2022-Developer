@@ -20,9 +20,9 @@ You will have following within this bundle:
 | OS version                   | Microsoft Windows Server 2022 Datacenter (10.0.20348)|
 | SQL Package                  | Microsoft SQL Server 2022                            |
 | SQL Edition                  | Developer                                            |
-| Type                         | RTM-CU24 (KB5080999)                                 |
-| Version                      | 16.0.4245.2 (X64)                                    |
-| Patch Level                  | 16.0.4245.2                                          |
+| Type                         | RTM-CU25 (KB5081477)                                 |
+| Version                      | 16.0.4255.1 (X64)                                    |
+| Patch Level                  | 16.0.4255.1                                          |
 | Features                     | Database Engine Services, SSIS, SSAS, SQL Browser    |
 |                              | SQL Writer, SQL Client Connectivity SDK              |
 | Named Instance               | MSSQLSERVER (Default)                                |
@@ -31,14 +31,14 @@ You will have following within this bundle:
 
 #### SQL Patch Level
 
-KB5080999 - Cumulative Update 24 for SQL Server 2022
-Release Date:   March 12, 2026
-This update contains the latest fixes and improvements issued after the release of SQL Server 2022 Cumulative Update 23.
+KB5081477 - Cumulative Update 25 for SQL Server 2022
+Release Date:   May 20, 2026
+This update contains the latest fixes and improvements issued after the release of SQL Server 2022 Cumulative Update 24.
 
-SQL Server - Product version: 16.0.4245.2, file version: 2022.160.4245.2
+SQL Server - Product version: 16.0.4255.1, file version: 2022.160.4255.1
 Analysis Services - Product version: 16.0.43.252, file version: 2022.160.43.252
 
-[Learn more](https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate24)
+[Learn more](https://learn.microsoft.com/en-us/troubleshoot/sql/releases/sqlserver-2022/cumulativeupdate25)
 
 #### Default Configuration for the Image
 
