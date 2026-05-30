@@ -1,9 +1,12 @@
 provider "google" {
   project = var.project_id
+  default_labels = {
+    goog-partner-solution = "isol_plb32_0014m00001jtg0yqaa_ej3ez3ehobvtfqxcuoj5zlgzzvsx3lpf"
+  }
 }
 
 locals {
-  network_interfaces = [ for i, n in var.networks : {
+  network_interfaces = [for i, n in var.networks : {
     network     = n,
     subnetwork  = length(var.sub_networks) > i ? element(var.sub_networks, i) : null
     external_ip = length(var.external_ips) > i ? element(var.external_ips, i) : "NONE"
@@ -11,16 +14,16 @@ locals {
   ]
 
   metadata = {
-    product = "ms-sql-server-2022-dev"
-    google-logging-enable = "0"
+    product                  = "ms-sql-server-2022-dev"
+    google-logging-enable    = "0"
     google-monitoring-enable = "0"
   }
 }
 
 resource "google_compute_instance" "instance" {
-  name = "${var.goog_cm_deployment_name}-vm"
+  name         = "${var.goog_cm_deployment_name}-vm"
   machine_type = var.machine_type
-  zone = var.zone
+  zone         = var.zone
 
   tags = ["${var.goog_cm_deployment_name}-deployment"]
 
@@ -28,8 +31,8 @@ resource "google_compute_instance" "instance" {
     device_name = "autogen-vm-tmpl-boot-disk"
 
     initialize_params {
-      size = var.boot_disk_size
-      type = var.boot_disk_type
+      size  = var.boot_disk_size
+      type  = var.boot_disk_type
       image = var.source_image
     }
   }
@@ -41,7 +44,7 @@ resource "google_compute_instance" "instance" {
   dynamic "network_interface" {
     for_each = local.network_interfaces
     content {
-      network = network_interface.value.network
+      network    = network_interface.value.network
       subnetwork = network_interface.value.subnetwork
 
       dynamic "access_config" {
@@ -67,15 +70,15 @@ resource "google_compute_instance" "instance" {
 resource "google_compute_firewall" tcp_1433 {
   count = var.enable_tcp_1433 ? 1 : 0
 
-  name = "${var.goog_cm_deployment_name}-tcp-1433"
+  name    = "${var.goog_cm_deployment_name}-tcp-1433"
   network = element(var.networks, 0)
 
   allow {
-    ports = ["1433"]
+    ports    = ["1433"]
     protocol = "tcp"
   }
 
-  source_ranges =  compact([for range in split(",", var.tcp_1433_source_ranges) : trimspace(range)])
+  source_ranges = compact([for range in split(",", var.tcp_1433_source_ranges) : trimspace(range)])
 
   target_tags = ["${var.goog_cm_deployment_name}-deployment"]
 }
@@ -83,15 +86,15 @@ resource "google_compute_firewall" tcp_1433 {
 resource "google_compute_firewall" udp_1434 {
   count = var.enable_udp_1434 ? 1 : 0
 
-  name = "${var.goog_cm_deployment_name}-udp-1434"
+  name    = "${var.goog_cm_deployment_name}-udp-1434"
   network = element(var.networks, 0)
 
   allow {
-    ports = ["1434"]
+    ports    = ["1434"]
     protocol = "udp"
   }
 
-  source_ranges =  compact([for range in split(",", var.udp_1434_source_ranges) : trimspace(range)])
+  source_ranges = compact([for range in split(",", var.udp_1434_source_ranges) : trimspace(range)])
 
   target_tags = ["${var.goog_cm_deployment_name}-deployment"]
 }
