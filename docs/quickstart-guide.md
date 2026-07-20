@@ -17,7 +17,7 @@ You will have following within this bundle:
 #### Key Features
 
 | **Feature**                  | **Description**                                      |
-| OS version                   | Microsoft Windows Server 2022 Datacenter (10.0.20348)|
+| OS version                   | Microsoft Windows Server 2022 Datacenter (updated on 20260717)|
 | SQL Package                  | Microsoft SQL Server 2022                            |
 | SQL Edition                  | Developer                                            |
 | Type                         | RTM-CU25 (KB5081477)                                 |
