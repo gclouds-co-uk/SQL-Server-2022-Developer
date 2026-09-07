@@ -4,6 +4,7 @@ title: Release Notes
 nav_order: 3
 ---
 # SQL Server 2022 Developer Edition on Windows Server 2022 Datacenter - Release Notes
+
 # Version SQL2022DEV-2026Q4
 
 ## Key Changes and Updates
