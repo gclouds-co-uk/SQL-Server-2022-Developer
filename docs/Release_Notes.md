@@ -9,12 +9,15 @@ nav_order: 3
 
 ## Key Changes and Updates
 
-### 1. Windows OS Update
-- **Base Image Update**: The Windows Server 2022 Datacenter base image has been updated to v20260717, including the latest security patches.
+### 1. SQL Cumulative Update
+- **Deployment of SQL Cumulative Update 25 (KB5081477)**: The version is 16.0.4255.1.
+
+### 2. Windows OS Update
+- **Base Image Update**: The Windows Server 2022 Datacenter base image has been updated to include the latest June 2026 security patches (KB5094128).
 
 ### 3. Security Enhancements
 - **Fixed Common Vulnerabilities and Exposures (CVEs)**:
-  - Mitigated critical CVEs (`CVE-2026-42904`, `CVE-2026-44815`, `CVE-2026-45602`, `CVE-2026-45657`, `CVE-2026-47291`) by applying the latest Windows OS Monthly Quality Update.
+  - CVE-2026-42904, CVE-2026-44815, CVE-2026-45602, CVE-2026-45657, CVE-2026-47291: Mitigated via latest OS security patches (KB5094128).
   - General vulnerabilities addressed through standard OS patching.
 
 # Version SQL2022DEV-2026Q3
