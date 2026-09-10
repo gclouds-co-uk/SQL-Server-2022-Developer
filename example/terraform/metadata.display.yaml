@@ -104,8 +104,8 @@ spec:
           title: Project Id
         source_image:
           enumValueLabels:
-          - label: gclouds-win2022-sql2022-dev-1779804685
-            value: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1779804685
+          - label: gclouds-win2022-sql2022-dev-1788818451
+            value: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1788818451
           name: source_image
           title: Image version
           xGoogleProperty:

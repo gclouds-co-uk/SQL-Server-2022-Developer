@@ -15,11 +15,11 @@ spec:
     softwareGroups:
     - software:
       - title: Windows Server 2022
-        version: DC 20260429
+        version: DC v20260814
       type: SG_OS
     - software:
       - title: Microsoft (R) SQL Server 2022
-        version: 16.0.4255.1
+        version: 16.0.4265.3
       - title: Enterprise Evalutation Edition
         version: 64 bit
       - title: SSAS
@@ -29,9 +29,9 @@ spec:
       - title: SSMS
         version: "20.1"
       - title: CU
-        version: "25"
+        version: "26"
     title: Google Cloud Marketplace Terraform Module
-    version: SQL2022DEV-2026Q3
+    version: SQL2022DEV-2026Q4V2
   interfaces:
     outputs:
     - description: Machine type for the compute instance.
@@ -53,7 +53,7 @@ spec:
       name: goog_cm_deployment_name
       required: true
       varType: string
-    - defaultValue: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1779804685
+    - defaultValue: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1788818451
       description: The image name for the disk for the VM instance.
       name: source_image
       varType: string
