@@ -17,12 +17,12 @@ You will have following within this bundle:
 #### Key Features
 
 | **Feature**                  | **Description**                                      |
-| OS version                   | Microsoft Windows Server 2022 Datacenter (updated on 20260814)|
+| OS version                   | Microsoft Windows Server 2022 Datacenter (updated on 20261026)|
 | SQL Package                  | Microsoft SQL Server 2022                            |
 | SQL Edition                  | Developer                                            |
-| Type                         | RTM-CU26 (KB5093420)                                 |
-| Version                      | 16.0.4265.3 (X64)                                    |
-| Patch Level                  | 16.0.4265.3                                         |
+| Type                         | RTM-CU27 (KB5104824)                                 |
+| Version                      | 16.0.4295.3 (X64)                                    |
+| Patch Level                  | 16.0.4295.3                                         |
 | Features                     | Database Engine Services, SSIS, SSAS, SQL Browser    |
 |                              | SQL Writer, SQL Client Connectivity SDK              |
 | Named Instance               | MSSQLSERVER (Default)                                |
@@ -31,14 +31,14 @@ You will have following within this bundle:
 
 #### SQL Patch Level
 
-KB5093420 - Cumulative Update 26 for SQL Server 2022
-Release Date:   July 16, 2026
-This update contains the latest fixes and improvements issued after the release of SQL Server 2022 Cumulative Update 25.
+KB5104824 - Cumulative Update 27 for SQL Server 2022
+Release Date:   September 15, 2026
+This update contains the latest fixes and improvements issued after the release of SQL Server 2022 Cumulative Update 26.
 
-SQL Server - Product version: 16.0.4265.3, file version: 2022.160.4265.3
+SQL Server - Product version: 16.0.4295.3, file version: 2022.160.4295.3
 Analysis Services - Product version: 16.0.43.252, file version: 2022.160.43.252
 
-[Learn more](https://support.microsoft.com/en-us/servicing/sql/sql-server-2022/cumulative-update/kb5093420-cu26)
+[Learn more](https://support.microsoft.com/en-us/servicing/sql/sql-server-2022/cumulative-update/kb5104824-cu27)
 
 #### Default Configuration for the Image
 
