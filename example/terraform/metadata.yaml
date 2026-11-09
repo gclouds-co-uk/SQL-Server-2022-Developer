@@ -53,7 +53,7 @@ spec:
       name: goog_cm_deployment_name
       required: true
       varType: string
-    - defaultValue: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1790614236
+    - defaultValue: projects/mpi-gclouds-public/global/images/gclouds-win2022-sql2022-dev-1794228240
       description: The image name for the disk for the VM instance.
       name: source_image
       varType: string
